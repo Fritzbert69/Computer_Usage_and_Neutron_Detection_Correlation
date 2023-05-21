@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 dirname = os.path.dirname(__file__)
-filename_in = os.path.join(dirname, '../data_input/data_raw/nmdb_2023_05_13.txt')
+filename_in = os.path.join(dirname, '../data_input/data_raw/nmdb_data.txt')
 filename_out = os.path.join(dirname, '../data_input/data_filtered/Neutron_Detection_Filtered.csv')
 
 

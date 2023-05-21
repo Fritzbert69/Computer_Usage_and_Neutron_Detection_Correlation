@@ -45,16 +45,16 @@ else:
         else:
             print('Please type Y for yes or N for no')
 
-if os.path.exists('data_input/data_raw/nmdb_2023_05_13.txt'):
-    print("Dataset: nmdb_2023_05_13.txt found! \n Procede with data-filtering and callculations")
+if os.path.exists('data_input/data_raw/nmdb_data.txt'):
+    print("Dataset: nmdb_data.txt found! \n Procede with data-filtering and callculations")
     model_txt()
 
 
 else:
-    print("Dataset: nmdb_2023_05_13.txt not found! \n Possible reasons:") 
-    print("Wrong name: the original name has not been modified and should be \"nmdb_2023_05_13.txt\"")
+    print("Dataset: nmdb_data.txt not found! \n Possible reasons:") 
+    print("Wrong name: the original name has not been modified and should be \"nmdb_data.txt\"")
     print("Wrong data format: data format should be \".txt\"")
-    print("Wrong path: nmdb_2023_05_13.txt should be within \"/data_input/data_raw/\"")
+    print("Wrong path: nmdb_data.txt should be within \"/data_input/data_raw/\"")
     print("...\n ")
 
     
@@ -100,7 +100,7 @@ plt.legend()
 plt.savefig("data_output/plots_output/computer_usage_increase_10y_EUall_bar.png")
  
 # show the plot
-#plt.show()
+plt.show()
 
 plt.close()
 
@@ -137,7 +137,7 @@ plt.legend()
 plt.savefig("data_output/plots_output/computer_usage_3m_EUsingle_line.png")
 
 # show the plot
-#plt.show()
+plt.show()
 
 plt.close()
 
@@ -172,7 +172,7 @@ plt.legend()
 plt.savefig("data_output/plots_output/anualy_averaged_neutron_detections_per_sec_EU.png") 
 
 # show the plot
-#plt.show()
+plt.show()
 
 plt.close()
 
