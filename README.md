@@ -118,5 +118,5 @@ folder.
 ## Run the experiment:
 type the following line into your bash console:
 ```
-python3 main.py
+python3 ./main.py
 ```
